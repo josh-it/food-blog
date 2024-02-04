@@ -9,7 +9,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
-  <title>Login | FlavorVoyage</title>
+  <title>Sign Up | FlavorVoyage</title>
 
 
 
@@ -167,26 +167,32 @@
   <main class="form-signin w-100 m-auto">
     <form method="post">
       <img class="mb-4 d-block mx-auto" src="assets/imgs/FlavorVoyage_logo.png " alt="" width="92" height="92" style="object-fit: cover;">
-      <h1 class="h3 mb-3 text-center fw-normal">Sign In</h1>
+      <h1 class="h3 mb-3 text-center fw-normal">Sign Up</h1>
 
       <div class="form-floating">
-        <input type="email" name="email" class="form-control mb-2" id="floatingInput" placeholder="name@example.com">
+        <input name="username" type="text" class="form-control mb-2" id="floatingInput" placeholder="Username">
+        <label for="floatingInput">Username</label>
+      </div>
+      <div class="form-floating">
+        <input name="email" type="email" class="form-control mb-2" id="floatingInput" placeholder="name@example.com">
         <label for="floatingInput">Email address</label>
       </div>
       <div class="form-floating">
         <input name="password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
         <label for="floatingPassword">Password</label>
       </div>
-      <div class="my-2">
-        <p>Don't have an account? <a href="signup.php">Sign up here.</a></p>
+      <div class="form-floating">
+        <input name="confirm_password" type="password" class="form-control" id="floatingPassword" placeholder="Confirm Password">
+        <label for="floatingPassword">Confirm Password</label>
       </div>
+      <p>Already have an account? <a href="signup.php">Login here.</a></p>
       <div class="form-check text-start my-3">
-        <input name="remember" class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+        <input name="accept" class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
         <label class="form-check-label" for="flexCheckDefault">
-          Remember me
+          Accept
         </label>
       </div>
-      <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
+      <button class="btn btn-primary w-100 py-2" type="submit">Sign Up</button>
       <p class="mt-5 mb-3 text-body-secondary text-center">&copy; <?php echo date("Y") ?></p>
     </form>
   </main>
