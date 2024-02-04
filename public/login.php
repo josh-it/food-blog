@@ -2,7 +2,7 @@
 <html lang="en" data-bs-theme="auto">
 
 <head>
-  <script src="assets/bootstrap/js/color-mode.js"></script>
+  <script src="assets/js/color-mode.js"></script>
 
   <!-- color-modes.js -->
 
@@ -12,9 +12,6 @@
   <title>Login | FlavorVoyage</title>
 
 
-
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
   <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
