@@ -47,20 +47,8 @@ Step by step instructions
 2. Paste this into the body of your HTML file (at the location where:
    you would like your slider to appear in the page):
 
-<div class="ism-slider" data-transition_type="fade" data-play_type="loop" id="my-slider">
+<div class="ism-slider" id="my-slider">
   <ol>
-    <li>
-      <img src="ism/image/slides/flower-729514_1280.jpg">
-    </li>
-    <li>
-      <img src="ism/image/slides/beautiful-701678_1280.jpg">
-    </li>
-    <li>
-      <img src="ism/image/slides/summer-192179_1280.jpg">
-    </li>
-    <li>
-      <img src="ism/image/slides/city-690332_1280.jpg">
-    </li>
     <li>
       <img src="ism/image/slides/flower-729514_1280.jpg">
     </li>
